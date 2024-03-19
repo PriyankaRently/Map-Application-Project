@@ -36,7 +36,7 @@
     [self setupLocationManager];
     [self setupSearchBar];
     [self setupCollectionView];
-    // [self setupLongPressGesture];
+  //  [self setupLongPressGesture];
     
     self.showMapTypeViewBtn.layer.cornerRadius  = self.showMapTypeViewBtn.frame.size.width / 2.0;
     
@@ -308,7 +308,8 @@
     [self searchBarSearchButtonClicked:self.searchBar];
 }
 
-/* - (void)setupLongPressGesture {
+/*
+ - (void)setupLongPressGesture {
  UILongPressGestureRecognizer *longPressGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleMapLongPress:)];
  [self.mapView addGestureRecognizer:longPressGesture];
  }
@@ -354,7 +355,7 @@
  }];
  }
  }
- */
-
+ 
+*/
 @end
 
